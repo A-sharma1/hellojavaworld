@@ -2,11 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.miguno</groupId>
-  <artifactId>java-docker-build</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0.0-SNAPSHOT</version>
-  <name>java-docker-build</name>
 
     <groupId>org.examples.java.helloworld</groupId>
     <artifactId>helloworld-spring-boot</artifactId>
@@ -36,16 +31,6 @@
             <scope>test</scope>
         </dependency>
         
-   <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-tomcat</artifactId>
-    
-</dependency>
-
-  <dependency>
-    <groupId>org.apache.tomcat.embed</groupId>
-    <artifactId>tomcat-embed-jasper</artifactId
-</dependency>
 
     <properties>
         <java.version>1.8</java.version>
